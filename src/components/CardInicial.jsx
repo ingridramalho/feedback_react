@@ -29,7 +29,7 @@ export function CardInicial({ setNotaAvaliacao, notaAvaliacao, setSubmited }) {
             <InputButton value={5} setNotaAvaliacao={setNotaAvaliacao}/>
         </div>
 
-        <button onClick={handleSubmit} className="bg-orange w-full py-3 uppercase text-sm rounded-3xl tracking-1 font-bold hover:bg-white hover:text-orange cursor-pointer">Submit</button>
+        <button onClick={handleSubmit} className="bg-orange w-full py-3 uppercase text-sm rounded-3xl tracking-1 font-bold hover:bg-white hover:text-orange cursor-pointer duration-500">Submit</button>
     </div>
     )
 }
